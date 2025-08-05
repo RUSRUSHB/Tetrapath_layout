@@ -7,7 +7,8 @@ keyboards:
               character:
                 char: "1"
             width: available
-            label: "1"
+            label:
+              text: ""
             swipe:
               - action:
                   character:
@@ -180,7 +181,8 @@ keyboards:
               character:
                 char: "0"
             width: available
-            label: "0"
+            label:
+              text: ""
             swipe:
               - action:
                   character:
@@ -471,7 +473,15 @@ keyboards:
             swipe:
               - action:
                   shortcutCommand: "#简繁切换"
-                label: 简繁
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  shortcutCommand: "#左移"
+                label:
+                  text: ""
                 display: true
                 processByRIME: true
                 direction: down
@@ -515,6 +525,13 @@ keyboards:
             width: available
             label: H
             swipe:
+              - action:
+                  shortcutCommand: "#右移"
+                label:
+                  text: ""
+                display: true
+                processByRIME: true
+                direction: down
               - action:
                   shortcutCommand: "#左移"
                 label:
