@@ -824,7 +824,7 @@ keyboards:
       bottom: 4
       top: 8
       right: 3
-  - name: 四方宇 Tetrapath
+  - name: 四方御 Tetrareign
     isPrimary: true
     rows:
       - keys:
@@ -852,8 +852,7 @@ keyboards:
           - action:
               shortcutCommand: "#行首"
             width: available
-            label:
-              text: ""
+            label: 行首
             swipe:
               - action:
                   character:
@@ -874,8 +873,7 @@ keyboards:
           - action:
               shortcutCommand: "#showPhraseView"
             width: available
-            label:
-              text: ""
+            label: 習語
             swipe:
               - action:
                   character:
@@ -896,8 +894,7 @@ keyboards:
           - action:
               shortcutCommand: "#showPasteboardView"
             width: available
-            label:
-              text: ""
+            label: 堆栈
             swipe:
               - action:
                   character:
@@ -915,10 +912,9 @@ keyboards:
                 processByRIME: true
                 direction: down
           - action:
-              shortcutCommand: "#粘贴"
+              shortcutCommand: "#复制"
             width: available
-            label:
-              text: ""
+            label: 复制
             swipe:
               - action:
                   character:
@@ -937,16 +933,14 @@ keyboards:
                 processByRIME: true
                 direction: down
           - action:
-              character:
-                char: ^
+              shortcutCommand: "#粘贴"
             width: available
-            label: ^…
+            label: 粘贴
             swipe:
               - action:
                   character:
-                    char: ""
-                label:
-                  text: ""
+                    char: ^
+                label: ^…
                 display: true
                 processByRIME: true
                 direction: up
@@ -961,8 +955,7 @@ keyboards:
           - action:
               shortcutCommand: "#重输"
             width: available
-            label:
-              text: ""
+            label: 重输
             swipe:
               - action:
                   character:
@@ -984,7 +977,7 @@ keyboards:
               character:
                 char: _
             width: available
-            label: _——
+            label: _
             swipe:
               - action:
                   character:
@@ -1005,8 +998,7 @@ keyboards:
           - action:
               shortcutCommand: "#行尾"
             width: available
-            label:
-              text: ""
+            label: 行尾
             swipe:
               - action:
                   character:
