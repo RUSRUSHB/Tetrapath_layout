@@ -5,6 +5,7 @@
 1. 充分采用按键四个方向上的滑动。字符分配符合直觉且误触损害小。
 2. 标点符号与主流电脑键盘键位匹配
 
+![preview_in_action](preview_in_action.jpg)
 ![preview](preview.png)
 
 ### 预览方法
